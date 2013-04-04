@@ -1,0 +1,24 @@
+{
+  "name": "ejsify",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "~0.8.3",
+    "through": "~2.2.7"
+  },
+  "devDependencies": {
+    "browserify": "~2.11.0"
+  },
+  "description": "EJS precompiler for browserify",
+  "keywords": [
+    "ejs",
+    "browserify",
+    "precompiler"
+  ],
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/ejsify.git"
+  },
+  "license": "MIT"
+}
