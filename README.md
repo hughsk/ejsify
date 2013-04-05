@@ -1,4 +1,4 @@
-# ebsify
+# ejsify
 
 [EJS](http://npmjs.org/package/ejs) precompiler for
 [Browserify](http://browserify.org).
@@ -6,15 +6,15 @@
 ## Installation ##
 
 ``` bash
-npm install ebsify
+npm install ejsify
 ```
 
 ## Usage ##
 
-If you're compiling your code from the command-line, include `-t ebsify`:
+If you're compiling your code from the command-line, include `-t ejsify`:
 
 ``` bash
-browserify -t ebsify index.js -o bundle.js
+browserify -t ejsify index.js -o bundle.js
 ```
 
 And then you can use `require()` and get back bundled EJS templates.
