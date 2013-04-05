@@ -1,6 +1,6 @@
 {
   "name": "ejsify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "dependencies": {
     "ejs": "~0.8.3",
