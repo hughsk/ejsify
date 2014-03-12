@@ -4,10 +4,10 @@
   "main": "index.js",
   "dependencies": {
     "ejs": "~0.8.3",
-    "through": "~2.2.7"
+    "through": "~2.3.4"
   },
   "devDependencies": {
-    "browserify": "~2.11.0"
+    "browserify": "~3.32.1"
   },
   "description": "EJS precompiler for browserify",
   "keywords": [
