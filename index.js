@@ -4,7 +4,7 @@ var ejs = require('ejs')
 module.exports = function(file, options) {
   if (!/\.ejs$/.test(file)) return through()
 
-  options = options || {};
+  options = options || {}
 
   var buffer = ""
 
@@ -13,8 +13,7 @@ module.exports = function(file, options) {
   }, function end() {
     var template = ejs.compile(buffer, {
         client: true
-      , debug: options.debug || false
-      , compileDebug: options.compileDebug || false
+      , compileDebug: options.debug || false
       , filename: file
     })
 
